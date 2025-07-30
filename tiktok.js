@@ -10,7 +10,7 @@ prueba2.forEach(x => Mensajes.push(x.nodeValue.replaceAll('\n'," ")))
 prueba3.forEach(x => Remitentes.push(x.nodeValue.replaceAll('\n'," ")))
 
 //Remitente= [Remitente.join("|")]
-//Mensajes = [Mensajes.join("|")]a
+//Mensajes = [Mensajes.join("|")]
 const arrayOfObjects = [];
 for (let i = 0; i < Mensajes.length; i++) {
   const obj = {};
